@@ -8,6 +8,8 @@ import com.alphatrader.rest.util.ApiLibConfig;
 
 public class LoginDialog {
 
+
+	/*
 	public void loginGame() {
 
 		ApiLibConfig config = ApiLibConfig.getInstance();
@@ -18,11 +20,12 @@ public class LoginDialog {
 		}
 
 		config.setPartnerId("e1d149fb-0b2a-4cf5-9ef7-17749bf9d144");
-		User user = new User("Alain", "lollies");
 		user.login();
 		config.setUser(user);
 
 	}
+	*/ 
+	
 
 	public void loginGameSteer() {
 
@@ -32,11 +35,11 @@ public class LoginDialog {
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
-
+		/*
 		config.setPartnerId("e1d149fb-0b2a-4cf5-9ef7-17749bf9d144");
-		User user = new User("Steerforth", "lollies");
 		user.login();
 		config.setUser(user);
+		*/
 
 	}
 }
